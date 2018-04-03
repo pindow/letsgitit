@@ -1,0 +1,85 @@
+﻿.container {width: 100%; padding-top: 25px;}
+.container .title{width: 80%; height: 47px; margin: 0 auto; text-align: center;}
+.container .title h1{color: white; text-indent: -99999px; width:133px; height: 20px; display: block; background: url(../images/logo_text.png) no-repeat; background-size: 100%; margin: 22px auto 16px;}
+.container .title h2{color: white;  font-size: 23.5px; font-weight: 400}
+.container .main{width: 80%; height: 200px;  margin: 0 auto;}
+.container .login{width: 85%; height: 200px; margin: 0 auto; text-align: center; margin-top: 27px;}
+.container .login .inputWrap{width: 75%; height: 140px; margin: 0 auto;}
+.container .login label{display: none;}
+.container .login  input[type="text"],.container .login input[type="text"] {
+	position: relative;
+	width: 94%;
+	padding: 3%;
+	margin-top: 7px;
+	font-size: 14px;
+	color: #a6a5ff;
+	outline: none;
+	border-bottom: 1px solid #706fb0;
+	background:none;
+}
+.input1{margin-bottom: 20px;}
+.input2{margin-bottom: 10px;}
+
+.container .login p{font-size:10px; color: #fec107;}
+.container  button{width: 100%; height: 45px; background:#fec107; margin:60px auto 10px; color: #ffffff; font-size: 16.5px; }
+.container p.help{color: #fff; margin-top: 20px; font-size: 14px;}
+.container p.help span a{color: #fec107;}
+
+.stepWrap{width:74%; height:66px; margin: 10px auto; background: url(../images/step1.png) no-repeat; background-size: 100%;}
+.stepWrap2{width:74%; height:66px; margin: 10px auto; background: url(../images/step2.png) no-repeat; background-size: 100%;}
+.container .step2{width: 85%; height: 145px; margin: 0 auto; margin-top: 27px;}
+.container .textbox1{width: 99%; height: 100px; border: 2px solid #9896e9; overflow-y: scroll; text-align: left; color: black; background: white;margin-bottom:10px; }
+.container .textbox1 p{ text-align: left; margin: 0; color: #5e5d5d; height: 20px;}
+.container .textbox1 p.title{ text-align: left; margin: 0; color: black; height: 20px;}
+.container .textbox2{width: 99%; height: 100px; border: 2px solid #9896e9; overflow-y: scroll; text-align: left; color: black; background: white;margin-bottom:10px; }
+.container .textbox2 p{ text-align: left; margin: 0; color: #5e5d5d; height: 20px;}
+.container .textbox2 p.title{ text-align: left; margin: 0; color: black; height: 20px;}
+
+.container .step2 input[type="checkbox"] {
+    display:none;
+}
+.container .step2 input[type="checkbox"] + label {
+    color:#f2f2f2;
+}
+.container .step2 input[type="checkbox"] + label span {
+    display:inline-block;
+    width:22px;
+    height:23px;
+    margin:-2px 10px 0 0;
+    vertical-align:middle;
+    background:url(../images/check.png) -22px top no-repeat;	
+    cursor:pointer;
+}
+.container .step2 input[type="checkbox"]:checked + label span {
+    background:url(../images/check.png) left top no-repeat;
+}
+.container .step2 label{font-size: 13px}
+.container .step2btn{width: 85%; height: 113px; margin: 0 auto; margin-top: 11px; text-align: center;}
+.container .step2btn > a{display: block; width:45%; font-size: 17px; line-height: 43px; float: left; height:45px; margin: 19px auto;}
+.container .step2btn a.btn1{background-color: #5e5ca6; color: white; margin-right: 5%; }
+.container .step2btn a.btn2{background-color: #ef1a4a; color: white; margin-left: 5%; }
+.container .step2btn p.help{color: #fff; margin-top: 20px; font-size: 14px;}
+
+.stepWrap3{width:74%; height:66px; margin: 10px auto; background: url(../images/step3.png) no-repeat; background-size: 100%;}
+.container .step3{width: 85%; height: 145px; margin: 0 auto; margin-top: 27px;}
+.container .step3{width: 85%; height: 200px; margin: 0 auto; text-align: center; margin-top: 18px;}
+.container .step3 .inputWrap{width: 90%; height: 100%; margin: 0 auto;}
+.container .step3 label{display: none;}
+.container .step3  input[type="text"],.container .step3 input[type="password"] {
+	position: relative;
+	width: 94%;
+	padding: 3%;
+	margin-top: 7px;
+	font-size: 14px;
+	color: #a6a5ff;
+	outline: none;
+	border-bottom: 1px solid #706fb0;
+	background:none;
+}
+
+.container .step3 p{font-size:10px; color: #fec107;}
+.container .step3 .input1{margin-bottom: 25px;}
+.container .step3  .input2{margin-bottom: 20px;}
+.container .step3  button{width: 100%; height: 45px; background:#ef1a4a; margin:28px auto 10px; color: #ffffff; font-size: 16.5px; }
+.container .step3  p.help{color: #fff; margin-top: 20px; font-size: 14px;}
+.container .step3 p.help span a{color: #fec107;}
